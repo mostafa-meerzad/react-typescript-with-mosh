@@ -1,4 +1,4 @@
-import Reminder from "../types/Reminder";
+import Reminder from "../types/reminder";
 
 interface ReminderListProps {
   items: Reminder[];

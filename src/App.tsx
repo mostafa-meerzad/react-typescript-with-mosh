@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ReminderList from "./components/ReminderList";
-import Reminder from "./types/Reminder";
+import Reminder from "./types/reminder";
 
 const App = () => {
   const [reminders, setReminders] = useState<Reminder[]>([]);
