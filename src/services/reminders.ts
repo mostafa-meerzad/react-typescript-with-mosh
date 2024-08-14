@@ -1,5 +1,5 @@
 import axios from "axios";
-import Reminder from "../types/reminder";
+import Reminder from "../types/Reminder";
 
 class ReminderService {
   http = axios.create({ baseURL: "https://jsonplaceholder.typicode.com/" });
